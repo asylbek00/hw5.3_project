@@ -1,0 +1,19 @@
+.CardLayout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  
+}
+
+
+
+
+
+@media(min-width:580px){
+    .CardLayout{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+
+    }
+} 
